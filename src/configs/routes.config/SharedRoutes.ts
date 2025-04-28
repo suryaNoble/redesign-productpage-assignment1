@@ -1,7 +1,7 @@
 import { lazy } from 'react'
 import type { Routes } from '@/@types/routes'
 
-const sharedRoutes: Routes = [
+const SharedRoutes: Routes = [
     {
         key: 'homePage',
         path: `/`,
@@ -10,4 +10,4 @@ const sharedRoutes: Routes = [
     },
 ]
 
-export default sharedRoutes
+export default SharedRoutes

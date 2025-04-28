@@ -1,13 +1,13 @@
 import { lazy } from 'react'
 import authRoute from './authRoute'
 import othersRoute from './othersRoute'
-import sharedRoutes from './sharedRoutes'
+import SharedRoutes from './SharedRoutes'
 import type { Routes } from '@/@types/routes'
 
 export const publicRoutes: Routes = [...authRoute]
 
 export const protectedRoutes: Routes = [
-    ...sharedRoutes,
+    ...SharedRoutes,
     {
         key: 'singleMenuItem',
         path: '/single-menu-view',
