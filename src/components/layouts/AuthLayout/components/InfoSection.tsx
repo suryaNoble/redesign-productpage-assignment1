@@ -94,9 +94,9 @@ const Section: React.FC<SectionProps> = ({
 
 const InfoSection: React.FC = () => {
     // Placeholder images - replace with actual image imports or URLs
-    const aboutUs = '/placeholder-about-us.png'
-    const mission = '/placeholder-mission.png'
-    const challenges = '/placeholder-challenges.png'
+    const aboutUs = '/images/about_image.png'
+    const mission = '/images/header_img.png'
+    const challenges = '/images/banner.webp'
 
     return (
         <>
